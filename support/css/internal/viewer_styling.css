@@ -1,0 +1,323 @@
+/* navbar */
+img {
+  max-height: 100px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 40px;
+}
+
+hr {
+  border-top: 1px solid #000000;
+}
+
+.dashed {
+  border-style: dashed;
+}
+
+hr.no-padding {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.no-bottom-margin {
+  margin-bottom: 0px;
+}
+
+.small-margin {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.input-group {
+  width: 100%;
+}
+
+.input-label {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.input-padding {
+  padding-top: 15px;
+}
+
+.row-padding {
+  padding-bottom: 15px;
+}
+
+.section-header {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+}
+
+.navbar-gradient {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3e79d8+0,27998f+100 */
+  background: #3e79d8; /* Old browsers */
+  background: -moz-linear-gradient(left, #3e79d8 0%, #27998f 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #3e79d8 0%,#27998f 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #3e79d8 0%,#27998f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e79d8', endColorstr='#27998f',GradientType=1 ); /* IE6-9 */ /* IE6-9 */
+  border-width: 1px;
+}
+
+.navbar-nav {
+  font-size: 16px;
+}
+
+.navbar .divider-vertical {
+  height: 85px;
+  margin-top: 5px;
+  border-right: 1px solid #ffffff;
+}
+
+.navbar-link {
+  margin-top: 5px;
+}
+
+.nav > li > a {
+  color: #fff;
+  padding-top: 32.5px;
+  padding-bottom: 32.5px;
+}
+
+.active {
+  background-color: rgba(255,255,255,0.25);
+  color: #ffffff;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: rgba(255,255,255,0.25);
+  color: #000;
+}
+
+.navbar-logo {
+  background-color: #6b9ee8;
+}
+
+/* panel css */
+
+.panel > .panel-heading {
+  border-color: #000000;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6b9cc6+0,1e5799+100 */
+  background: #6b9cc6; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #6b9cc6 0%, #1e5799 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #6b9cc6 0%,#1e5799 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #6b9cc6 0%,#1e5799 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b9cc6', endColorstr='#1e5799',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.panel {
+  border-color: #000000;
+}
+
+.panel-title {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 22px;
+}
+
+.panel > .panel-body {
+  background-image: none;
+  border-color: #000000;
+}
+
+/* handsontable css */
+.handsontable table thead th {
+  background-color: #231d49;
+  color:white;
+}
+
+/* input-group css */
+.form-control {
+  background-color: #eaeaea;
+}
+
+/* Button */
+/* fragment */
+.btn-fragment { 
+  background-color: rgba(51,122,183,0.95);
+  color: #ffffff;
+  border-color: #555555; 
+  transition: all .5s;
+} 
+ 
+.btn-fragment:hover, 
+.btn-fragment:focus {
+  color: #000000; 
+  background-color: rgba(51,122,183,0.4);
+  border-color: #555555; 
+} 
+
+.btn-fragment:active, 
+.btn-fragment.active, 
+.open .dropdown-toggle.btn-fragment { 
+  color: #000000; 
+  background-color: rgba(51,122,183,0.4);
+  border-color: #555555; 
+} 
+
+/* Class Font Options */
+.tick text {
+  font-family: Montserrat, sans-serif;
+  font-weight: 100;
+}
+
+label {
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+}
+
+.filelabel {
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+
+h3 {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  font-family: Open Sans, sans-serif;
+  overflow-x: hidden; 
+}
+
+.barlabel {
+   font-family: Open Sans, sans-serif;
+   text-anchor: middle;
+   font-size: 16px;
+}
+
+/* D3 CSS */
+.chart .domain {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.ignorePointerEvents {
+  pointer-events: none;
+}
+
+.xAnnotationLabel, 
+.yAnnotationLabel,
+.yQTLLabel,
+.xGeneLabel,
+.yGeneLabel,
+.xLodLabel,
+.yLodLabel,
+.yAlleleLabel {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-anchor: middle;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.tick line { 
+  stroke: black
+}
+
+.line {
+  fill: none;
+  stroke-width: 2;
+}
+
+.zeroline,
+.markerline {
+  stroke-width: 1;
+  stroke-dasharray: 5;
+}
+
+.qtlIndicator {
+  stroke-width: 0;
+}
+
+.qtlLabel {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+/* probably won't work tooltip */
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.9);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+  pointer-events:none !imporatant;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+  pointer-events:none !imporatant;
+}
+
+
+/* webpage styling for inputs */
+.ui-select-toggle {
+  height: auto;
+}
+.ui-select-bootstrap .ui-select-choices-row>span {
+  white-space: normal !important;
+}
+
+.ui-select-placeholder {
+  display:inline-block;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  width:95%;
+}
+
+.ui-select-match-text > span {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 40px;
+}
+
+div.valid-data i {
+  vertical-align:middle;  
+}
+
+.pull-right {
+  float: right !important;
+  margin-top: 5px;
+}
+
+.table {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
